@@ -12,7 +12,7 @@
 while (have_posts()): the_post();
 
     ?>
-                                                                
+              <!-- Hämta bild för posten, gör title till en länk för att läsa hela inlägget, klickar man på author eller category visas det genom archive.php -->                                                  
         <article>
                 <img src="<?php echo get_the_post_thumbnail_url() ?>" />
                 <a href="<?php the_permalink();?>">
